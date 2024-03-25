@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Gnarlroot",
+    "imageAlt": "Gnarlroot",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-gnarlroot.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Igira",
+    "imageAlt": "Igira",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-igira-the-cruel.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Volcoross",
+    "imageAlt": "Volcoross",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-volcoross.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Larodar",
+    "imageAlt": "Larodar",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-larodar-keeper-of-the-flame.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Council",
+    "imageAlt": "Council",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-council-of-dreams.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Nymue",
+    "imageAlt": "Nymue",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-nymue-weaver-of-the-cycle.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Smolderon",
+    "imageAlt": "Smolderon",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-smolderon.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Tindral",
+    "imageAlt": "Tindral",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-tindral-sageswift-seer-of-flame.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  },
+  {
+    "name": "Fyrakk",
+    "imageAlt": "Fyrakk",
+    "picture": "https://wow.zamimg.com/images/wow/journal/ui-ej-boss-fyrakk-the-burning.png",
+    "abilities": [
+      {
+        "abilityName": "Flaming Pestilence",
+        "baseDamage": 540395,
+        "isAoe": true,
+        "iconName": "inv_misc_volatilefire",
+        "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence"
+      }
+    ]
+  }
+]
