@@ -1,6 +1,6 @@
 import { useState } from "react";
-import abilityData from "../src/datas/abilityData.json";
-import raidData from "../src/datas/raidData.json";
+import abilityData from "../src/components/abilityData.json";
+import raidData from "../src/components/raidData.json";
 import { AbilityDisplay } from "./components/abilityDisplay";
 import { AbilityIcon } from "./components/abilityIcon";
 import { RaidBlock } from "./components/raidBlock";
