@@ -1,19 +1,10 @@
-// Define the AbilityIcon component
-
 import { useState } from "react";
+import abilityData from "../src/datas/abilityData.json";
 import raidData from "../src/datas/raidData.json";
 import { AbilityDisplay } from "./components/abilityDisplay";
+import { AbilityIcon } from "./components/abilityIcon";
 import { RaidBlock } from "./components/raidBlock";
-
-interface AbilityIconProps {
-  src: string;
-  alt: string;
-}
-
-interface StatProps {
-  label: string;
-  value: string;
-}
+import { Stat } from "./components/stats";
 
 interface RaidBossProps {
   id: number;
@@ -21,29 +12,17 @@ interface RaidBossProps {
   abilities: string[];
 }
 
-const AbilityIcon = ({ src, alt }: AbilityIconProps) => (
-  <img src={src} alt={alt} className="w-10 h-10" />
-);
-
-const Stat = ({ label, value }: StatProps) => (
-  <div className="text-gray-300">
-    {label} <span className="text-white">{value}</span>
-  </div>
-);
-
 export const HealingApp = () => {
   const [selectedBoss, setSelectedBoss] = useState<RaidBossProps | null>(null);
+  const [classSelected, setClassSelected] = useState("");
 
   const handleRaidBlockClick = (RaidBoss: RaidBossProps) => {
     setSelectedBoss(RaidBoss);
   };
 
-  const abilitiesData = [
-    {
-      src: "/inv_10_alchemy_bottle_shape2_black.webp",
-      alt: "Ability 1 placeholder",
-    },
-  ];
+  const filteredAbilities = abilityData.filter((ability) => {
+    return ability.spec === classSelected;
+  });
 
   const statsData = [{ label: "Damage scaling:", value: "11:83" }];
 
@@ -56,8 +35,23 @@ export const HealingApp = () => {
           <div className="p-4 bg-gray-800 rounded-lg">
             {/* ... Left panel content ... */}
             <div className="grid grid-cols-6 gap-4 mb-4">
-              {abilitiesData.map((ability, index) => (
-                <AbilityIcon key={index} src={ability.src} alt={ability.alt} />
+              <select
+                value={classSelected}
+                onChange={(e) => setClassSelected(e.target.value)}
+              >
+                <option value="">Sélectionnez une classe</option>
+                <option value="BM">BM</option>
+                <option value="équilibre">équilibre</option>
+                // Add more options as needed
+              </select>
+
+              {filteredAbilities.map((ability, index) => (
+                <AbilityIcon
+                  key={index}
+                  src={ability.src}
+                  alt={ability.alt}
+                  title={ability.title}
+                />
               ))}
             </div>
             {/* ... Rest of the Left Panel ... */}

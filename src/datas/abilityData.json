@@ -1,0 +1,54 @@
+[
+  {
+    "src": "/inv_10_alchemy_bottle_shape2_black.webp",
+    "alt": "Ability 1 placeholder",
+    "title": "test1",
+    "spec": "équilibre"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/inv_10_alchemy_bottle_shape2_black.jpg",
+    "alt": "Flask Pot"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_spiritarmor.jpg",
+    "alt": "Force de la nature",
+    "title": "40% DR",
+    "spec": "BM"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/spell_druid_bearhug.jpg",
+    "alt": "Robustesse de l'ours",
+    "title": "20% HP",
+    "spec": "BM"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/ability_deathwing_assualtaspects.jpg",
+    "alt": "Aspect de la bête",
+    "title": "+2.5% HP",
+    "spec": "BM"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_protectionformnature.jpg",
+    "alt": "Endurance de la nature",
+    "title": "+20% DR à Force de la Nature",
+    "spec": "BM"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_galewinds.jpg",
+    "alt": "Vent régénérant",
+    "title": "+8% HP",
+    "spec": "BM"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/rogue_burstofspeed.jpg",
+    "alt": "Evitement de chasse",
+    "title": "6% AoE DR",
+    "spec": "BM"
+  },
+  {
+    "src": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_huntervswild.jpg",
+    "alt": "Entraînement d'endurance",
+    "title": "+5% HP",
+    "spec": "BM"
+  }
+]
