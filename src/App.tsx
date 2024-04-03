@@ -1,9 +1,8 @@
 import { useState } from "react";
-import abilityData from "../src/components/abilityData.json";
 import raidData from "../src/components/raidData.json";
 import { AbilityDisplay } from "./components/abilityDisplay";
-import { AbilityIcon } from "./components/abilityIcon";
 import { RaidBlock } from "./components/raidBlock";
+import { SimulationDisplay } from "./components/simulationDisplay";
 import { Stat } from "./components/stats";
 
 interface AbilityDetail {
@@ -24,17 +23,12 @@ interface RaidBossProps {
 
 export const HealingApp = () => {
   const [selectedBoss, setSelectedBoss] = useState<RaidBossProps | null>(null);
-  const [classSelected, setClassSelected] = useState("");
 
   const handleRaidBlockClick = (RaidBoss: RaidBossProps) => {
     setSelectedBoss(RaidBoss);
   };
 
-  const filteredAbilities = abilityData.filter((ability) => {
-    return ability.spec === classSelected;
-  });
-
-  const statsData = [{ label: "Damage scaling:", value: "11:83" }];
+  const statsData = [{ label: "Damage scaling:", value: "1" }];
 
   return (
     <div className="h-screen font-sans text-white bg-gray-900 ">
@@ -43,28 +37,7 @@ export const HealingApp = () => {
         <div className="grid gap-4 md:grid-cols-2">
           {/* Left panel */}
           <div className="p-4 bg-gray-800 rounded-lg">
-            {/* ... Left panel content ... */}
-            <div className="grid grid-cols-6 gap-4 mb-4">
-              <select
-                value={classSelected}
-                onChange={(e) => setClassSelected(e.target.value)}
-              >
-                <option value="">Sélectionnez une classe</option>
-                <option value="BM">Hunter Beast Mastery</option>
-                <option value="équilibre">Druide Equilibre</option>
-                // Add more options as needed
-              </select>
-
-              {filteredAbilities.map((ability, index) => (
-                <AbilityIcon
-                  key={index}
-                  src={ability.src}
-                  alt={ability.alt}
-                  title={ability.title}
-                />
-              ))}
-            </div>
-            {/* ... Rest of the Left Panel ... */}
+            <SimulationDisplay />
           </div>
 
           {/* Right panel */}

@@ -140,6 +140,38 @@
         "iconName": "inv_misc_volatilefire",
         "wowheadLink": "https://www.wowhead.com/spell=421960/flaming-pestilence",
         "iconImg": "https://wow.zamimg.com/images/wow/icons/large/inv_shadowflames_wave.jpg"
+      },
+      {
+        "abilityName": "Firestorm",
+        "baseDamage": 415689,
+        "isAoe": false,
+        "iconName": "spell_shadow_rainoffire",
+        "wowheadLink": "https://www.wowhead.com/spell=419506/firestorm",
+        "iconImg": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_rainoffire.jpg"
+      },
+      {
+        "abilityName": "Firestorm Swirlies",
+        "baseDamage": 831377,
+        "isAoe": true,
+        "iconName": "spell_shadow_rainoffire",
+        "wowheadLink": "https://www.wowhead.com/spell=419506/firestorm",
+        "iconImg": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_rainoffire.jpg"
+      },
+      {
+        "abilityName": "Dream Rend",
+        "baseDamage": 374120,
+        "isAoe": false,
+        "iconName": "sha_spell_fire_bluehellfire_nightmare",
+        "wowheadLink": "https://www.wowhead.com/spell=417455/dream-rend",
+        "iconImg": "https://wow.zamimg.com/images/wow/icons/large/sha_spell_fire_bluehellfire_nightmare.jpg"
+      },
+      {
+        "abilityName": "Dream Rend Ticks",
+        "baseDamage": 1662754,
+        "isAoe": false,
+        "iconName": "sha_spell_fire_bluehellfire_nightmare",
+        "wowheadLink": "https://www.wowhead.com/spell=417455/dream-rend",
+        "iconImg": "https://wow.zamimg.com/images/wow/icons/large/sha_spell_fire_bluehellfire_nightmare.jpg"
       }
     ]
   }
